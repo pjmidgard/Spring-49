@@ -2529,7 +2529,7 @@ class compression:
                                         Circle_times2=Circle_times2+1
 
 
-                                        if  Circle_times2==(2**48)-1:
+                                        if  Circle_times2==8192:
                                             raise SystemExit
                                             
                                         c=c+1
