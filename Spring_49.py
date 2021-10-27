@@ -322,7 +322,7 @@ class compression:
                                                 n = int(wer, 2)
                                         
                                                 qqwslenf=len(wer)
-                                                qqwslenf=(qqwslenf/8)*2
+                                                qqwslenf=(qqwslenf//8)*2
                                                 qqwslenf=str(qqwslenf)
                                                 qqwslenf="%0"+qqwslenf+"x"
                                              
@@ -421,7 +421,7 @@ class compression:
                                     n = int(wer, 2)
                                     
                                     qqwslenf=len(wer)
-                                    qqwslenf=(qqwslenf/8)*2
+                                    qqwslenf=(qqwslenf//8)*2
                                     qqwslenf=str(qqwslenf)
                                     qqwslenf="%0"+qqwslenf+"x"
                                         
@@ -778,7 +778,7 @@ class compression:
                         wer="0b"+wer
                         n = int(wer, 2)
                         qqwslenf=len(wer)
-                        qqwslenf=(qqwslenf/8)*2
+                        qqwslenf=(qqwslenf//8)*2
                         qqwslenf=str(qqwslenf)
                         qqwslenf="%0"+qqwslenf+"x"
                         jl=binascii.unhexlify(qqwslenf % n)
@@ -1038,7 +1038,7 @@ class compression:
                                                 n = int(wer, 2)
                                         
                                                 qqwslenf=len(wer)
-                                                qqwslenf=(qqwslenf/8)*2
+                                                qqwslenf=(qqwslenf//8)*2
                                                 qqwslenf=str(qqwslenf)
                                                 qqwslenf="%0"+qqwslenf+"x"
                                              
@@ -1137,7 +1137,7 @@ class compression:
                                     n = int(wer, 2)
                                     
                                     qqwslenf=len(wer)
-                                    qqwslenf=(qqwslenf/8)*2
+                                    qqwslenf=(qqwslenf//8)*2
                                     qqwslenf=str(qqwslenf)
                                     qqwslenf="%0"+qqwslenf+"x"
                                         
@@ -1298,7 +1298,7 @@ class compression:
                                     n = int(sda2, 2)
                                 
                                     qqwslenf=len(sda2)
-                                    qqwslenf=(qqwslenf/8)*2
+                                    qqwslenf=(qqwslenf//8)*2
                                     qqwslenf=str(qqwslenf)
                                     qqwslenf="%0"+qqwslenf+"x"
                              
@@ -1464,7 +1464,7 @@ class compression:
 
                                     n = int(wer, 2)
                                     qqwslenf=len(wer)
-                                    qqwslenf=(qqwslenf/8)*2
+                                    qqwslenf=(qqwslenf//8)*2
                                     qqwslenf=str(qqwslenf)
                                     qqwslenf="%0"+qqwslenf+"x"
                                     jl=binascii.unhexlify(qqwslenf % n)
@@ -1603,7 +1603,7 @@ class compression:
                            
                                         n = int(wer, 2)
                                         qqwslenf=len(wer)
-                                        qqwslenf=(qqwslenf/8)*2
+                                        qqwslenf=(qqwslenf//8)*2
                                         qqwslenf=str(qqwslenf)
                                         qqwslenf="%0"+qqwslenf+"x"
                                         jl=binascii.unhexlify(qqwslenf % n)
@@ -1775,7 +1775,7 @@ class compression:
                                     n = int(sda2, 2)
                                 
                                     qqwslenf=len(sda2)
-                                    qqwslenf=(qqwslenf/8)*2
+                                    qqwslenf=(qqwslenf//8)*2
                                     qqwslenf=str(qqwslenf)
                                     qqwslenf="%0"+qqwslenf+"x"
                              
@@ -1922,7 +1922,7 @@ class compression:
                                     n = int(sda3, 2)
                                 
                                     qqwslenf=len(sda3)
-                                    qqwslenf=(qqwslenf/8)*2
+                                    qqwslenf=(qqwslenf//8)*2
                                     qqwslenf=str(qqwslenf)
                                     qqwslenf="%0"+qqwslenf+"x"
                              
@@ -2080,7 +2080,7 @@ class compression:
                                     n = int(sda2, 2)
                                 
                                     qqwslenf=len(sda2)
-                                    qqwslenf=(qqwslenf/8)*2
+                                    qqwslenf=(qqwslenf//8)*2
                                     qqwslenf=str(qqwslenf)
                                     qqwslenf="%0"+qqwslenf+"x"
                              
@@ -2327,7 +2327,7 @@ class compression:
                                        
                                          n = int(wer, 2)
                                          qqwslenf=len(wer)
-                                         qqwslenf=(qqwslenf/8)*2
+                                         qqwslenf=(qqwslenf//8)*2
                                          qqwslenf=str(qqwslenf)
                                          qqwslenf="%0"+qqwslenf+"x"
                                          jl=binascii.unhexlify(qqwslenf % n)
@@ -2587,7 +2587,7 @@ class compression:
 
                                             n = int(wer, 2)
                                             qqwslenf=len(wer)
-                                            qqwslenf=(qqwslenf/8)*2
+                                            qqwslenf=(qqwslenf//8)*2
                                             qqwslenf=str(qqwslenf)
                                             qqwslenf="%0"+qqwslenf+"x"
                                             jl=binascii.unhexlify(qqwslenf % n)
